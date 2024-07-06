@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+article{
+    width: 60%;
+    margin: auto;
+}
+.cart_box img{
+    display: flex;
+    width: 40px;
+}
+
+.cart_img p{
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.cart_box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    border-bottom: 2px solid red ;
+}
+
+.total{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.total span:nth-child(1){
+    color: orangered;
+}
+
+.total p{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+}
